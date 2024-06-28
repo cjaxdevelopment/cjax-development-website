@@ -12,12 +12,12 @@ const About = () => {
 
       <Navbar />
 
-      <main className="flex flex-col items-center justify-center w-full flex-1 px-20 text-center">
-        <h1 className="text-6xl font-bold">About Me</h1>
-        <p className="mt-4 text-xl leading-relaxed">
+      <main className="flex flex-col items-center justify-center w-full flex-1 px-4 sm:px-8 text-center">
+        <h1 className="text-4xl sm:text-6xl font-bold">About Me</h1>
+        <p className="mt-4 text-lg sm:text-xl leading-relaxed">
           I am a web developer with a passion for creating beautiful and functional websites. With a strong background in front-end technologies, I strive to deliver exceptional user experiences. I have experience working with HTML, CSS, JavaScript, and modern frameworks like React and Next.js.
         </p>
-        <p className="mt-4 text-xl leading-relaxed">
+        <p className="mt-4 text-lg sm:text-xl leading-relaxed">
           In my free time, I enjoy learning new technologies, contributing to open-source projects, and exploring the latest trends in web development.
         </p>
       </main>

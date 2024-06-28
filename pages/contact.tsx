@@ -45,9 +45,9 @@ const Contact = () => {
 
       <Navbar />
 
-      <main className="flex flex-col items-center justify-center w-full flex-1 px-20 text-center">
-        <h1 className="text-6xl font-bold">Contact Me</h1>
-        <p className="mt-4 text-xl leading-relaxed">
+      <main className="flex flex-col items-center justify-center w-full flex-1 px-4 sm:px-8 text-center">
+        <h1 className="text-4xl sm:text-6xl font-bold">Contact Me</h1>
+        <p className="mt-4 text-lg sm:text-xl leading-relaxed">
           If you'd like to get in touch, please feel free to email me at <a href="mailto:chris.jackson@cjaxdevelopment.com" className="text-blue-500">chris.jackson@cjaxdevelopment.com</a>.
         </p>
         <form className="w-full max-w-lg mt-8" onSubmit={handleSubmit}>
@@ -104,7 +104,7 @@ const Contact = () => {
             </button>
           </div>
         </form>
-        {status && <p className="mt-4 text-xl leading-relaxed">{status}</p>}
+        {status && <p className="mt-4 text-lg sm:text-xl leading-relaxed">{status}</p>}
       </main>
 
       <footer className="w-full h-24 border-t flex items-center justify-center">
