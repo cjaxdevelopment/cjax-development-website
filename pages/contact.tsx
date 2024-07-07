@@ -53,7 +53,7 @@ const Contact = () => {
         <form className="w-full max-w-lg mt-8" onSubmit={handleSubmit}>
           <div className="flex flex-wrap -mx-3 mb-6">
             <div className="w-full px-3">
-              <label className="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" htmlFor="name">
+              <label className="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2 text-left" htmlFor="name">
                 Name
               </label>
               <input
@@ -69,7 +69,7 @@ const Contact = () => {
           </div>
           <div className="flex flex-wrap -mx-3 mb-6">
             <div className="w-full px-3">
-              <label className="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" htmlFor="email">
+              <label className="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2 text-left" htmlFor="email">
                 Email
               </label>
               <input
@@ -85,7 +85,7 @@ const Contact = () => {
           </div>
           <div className="flex flex-wrap -mx-3 mb-6">
             <div className="w-full px-3">
-              <label className="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" htmlFor="message">
+              <label className="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2 text-left" htmlFor="message">
                 Message
               </label>
               <textarea

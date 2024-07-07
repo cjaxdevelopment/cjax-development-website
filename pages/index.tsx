@@ -31,9 +31,9 @@ const Home = () => {
               <h3 className="text-xl sm:text-2xl font-bold">Ronnie Vaughn Music &rarr;</h3>
               <p className="mt-2">A wordpress site for a local musician</p>
             </a>
-            <a href="https://project3.com" className="p-4 sm:p-6 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow">
+            <a href="https://slashpullfive.com" className="p-4 sm:p-6 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow">
               <h3 className="text-xl sm:text-2xl font-bold">Slash Pull Five &rarr;</h3>
-              <p className="mt-2">Roster management web app for a pet project gaming community</p>
+              <p className="mt-2">Roster management web app for use in gaming community</p>
             </a>
           </div>
         </section>
