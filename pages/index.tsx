@@ -23,7 +23,7 @@ const Home = () => {
         <section className="my-8 w-full max-w-3xl">
           <h2 className="text-3xl sm:text-4xl font-bold">Projects</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-8 mt-4">
-            <a href="http://cjax.io" className="p-4 sm:p-6 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow">
+            <a href="http://redrowpropertydevelopment.com" className="p-4 sm:p-6 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow">
               <h3 className="text-xl sm:text-2xl font-bold">Redrow Property Development &rarr;</h3>
               <p className="mt-2">A website for a local paving and construction business</p>
             </a>
