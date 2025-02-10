@@ -3,7 +3,7 @@ import Navbar from '../components/Navbar';
 
 const Home = () => {
   return (
-    <div className="min-h-screen flex flex-col items-center justify-center bg-gray-100">
+    <div className="min-h-screen flex flex-col items-center justify-center">
       <Head>
         <title>Cjax Development</title>
         <meta name="description" content="My personal portfolio" />
